@@ -1,0 +1,122 @@
+Reasoned Programming
+===============================================================================
+
+The complete set of verification examples mined from the following book:
+
+Title: Reasoned Programming
+Authors: Krysia Broda, Susan Eisenbach, Hessam Khoshnevisan and Steve
+         Vickers
+
+Please note that this does not include all examples from that book.
+The criteria for inclusion is:
+
+* Complete code for the example is provided (rather than e.g. a
+  "snippet")
+
+* The example is fully specified (i.e. contains necessary
+  pre-/post-conditions)
+
+Summary
+==============================================================================
+
+There are 18 chapters.  Here is a summary of the benchmarks extracted
+from each chapter:
+
+Chapter 1
+---------
+
+(No examples mined from this chapter)
+
+Chapter 2
+---------
+
+(No examples mined from this chapter)
+
+Chapter 3
+---------
+
+* c3_min, p37
+
+Chapter 4
+---------
+
+(TO DO)
+
+Chapter 5
+---------
+
+(TO DO)
+
+Chapter 6
+---------
+
+(TO DO)
+
+Chapter 7
+---------
+
+(TO DO)
+
+Chapter 8
+---------
+
+(TO DO)
+
+Chapter 9
+---------
+
+(TO DO)
+
+Chapter 10
+----------
+
+(TO DO)
+
+Chapter 11
+----------
+
+(TO DO)
+
+Chapter 12
+----------
+
+(TO DO)
+
+Chapter 13
+----------
+
+(TO DO)
+
+Chapter 14
+----------
+
+(TO DO)
+
+Chapter 15
+----------
+
+(TO DO)
+
+Chapter 16
+----------
+
+(TO DO)
+
+Chapter 17
+----------
+
+(TO DO)
+
+Chapter 18
+----------
+
+(TO DO)
+
+
+
+
+
+
+
+
+
