@@ -40,15 +40,47 @@ Chapter 3
 Chapter 4
 ---------
 
-(TO DO)
+* c4_and, p44
+
+* c4_square, p46
+
+* c4_hasSolutions, p46
+
+* c4_pdifference, p48
+
+* c4_bitnegate, p49
+
+* c4_sign, p49
+
+* c4_pred, p49
 
 Chapter 5
 ---------
 
-(TO DO)
+* c5_sum, p53
+
+* c5_gcd, p55
+
+* c5_mult, p59
 
 Chapter 6
 ---------
+
+* c6_length, p73
+
+* c6_isin, p74
+
+* c6_hd, p75
+
+* c6_divide, p76
+
+* c6_sort, p78
+
+* c6_insert, p80
+
+* c6_smerge, p82
+
+* c6_reverse, p83 (not fully specified)
 
 (TO DO)
 
