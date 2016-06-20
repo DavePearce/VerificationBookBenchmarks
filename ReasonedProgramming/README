@@ -35,20 +35,20 @@ Chapter 2
 Chapter 3
 ---------
 
-* c3_min, p37
+* c3_min, p37 [OK]
 
 Chapter 4
 ---------
 
-* c4_and, p44
+* c4_gates, p44 [NOT VERIFIED]
 
-* c4_square, p46
+* c4_square, p46 [OK]
 
-* c4_hasSolutions, p46
+* c4_hasSolutions, p46 [PROBLEMS]
 
-* c4_pdifference, p48
+* c4_pdifference, p48 [CAN'T VERIFY]
 
-* c4_bitnegate, p49
+* c4_bitnegate, p49 [OK]
 
 * c4_sign, p49
 
