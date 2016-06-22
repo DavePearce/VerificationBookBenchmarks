@@ -57,11 +57,11 @@ Chapter 4
 Chapter 5
 ---------
 
-* c5_sum, p53
+* c5_sum, p53 [CAN'T]
 
-* c5_gcd, p55
+* c5_gcd, p55 [NOT VERIFIED]
 
-* c5_mult, p59
+* c5_mult, p59 [HARD]
 
 Chapter 6
 ---------
@@ -81,8 +81,6 @@ Chapter 6
 * c6_smerge, p82
 
 * c6_reverse, p83 (not fully specified)
-
-(TO DO)
 
 Chapter 7
 ---------
