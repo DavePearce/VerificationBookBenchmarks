@@ -66,17 +66,17 @@ Chapter 5
 Chapter 6
 ---------
 
-* c6_length, p73
+* c6_length, p73 [OK]
 
-* c6_isin, p74
+* c6_isin, p74 [TIMEOUT]
 
-* c6_hd, p75
+* c6_hd, p75 (specification differences) [OK old]
 
-* c6_divide, p76
+* c6_divide, p76 [NOT VERIFIED]
 
-* c6_sort, p78
+* c6_sort, p78 [TO DO]
 
-* c6_insert, p80
+* c6_insert, p80 [NOT VERIFIED]
 
 * c6_smerge, p82
 
