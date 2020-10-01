@@ -1,28 +1,24 @@
-type uint is (int x) where x >= 0
-type pos is (int x) where x > 0
+type uint is (int u) where u >= 0
 
-function findCutPoints(int[] s) -> (int[] rs, int rl):
-    final int n = |s|
+function findCutPoints(int[] s) -> (int rl):
+    uint x = 0
+    uint n = 0
     //
-    int[] cuts = [0; n]
-    uint l = 0
-    (uint x, pos y) = (0,1)
+    while (x+1) < |s|:
+        uint y = advance(s,x)
+        // mark cut point
+        x = y
     //
-    while y < n 
-    where x < y 
-    where l <= x
-    where |cuts| == n:
-        bool increasing = s[x] < s[y]
-        uint z = (uint) y
-        while z < n && (s[z-1] < s[z]) == increasing
-        where y <= z && z <= n:
-            z = z + 1
-        cuts[l] = z
-        l = l + 1
-        x = (uint) z
-        y = x + 1
+    return n
+
+function advance(int[] s, uint i) -> (uint r)
+requires (i+1) < |s|
+ensures (i+1) <= r:
+    uint j = i + 1
+    bool increasing = (s[i] < s[j])
     //
-    if x < n:
-        cuts[l] = n
+    while j < |s| && (s[j-1] < s[j]) == increasing
+    where j >= (i+1):
+        j = j + 1
     //
-    return cuts,l
+    return j
