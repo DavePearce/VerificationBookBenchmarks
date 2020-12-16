@@ -1,5 +1,3 @@
-import whiley.lang.*
-
 function invert(int[] A) -> (int[] B)
 // A must be injection
 requires 
@@ -28,9 +26,3 @@ ensures
         i = i + 1
     //
     return C
-
-method main(System.Console console):
-    int[] A = [9,3,8,2,7,4,0,1,5,6]
-    int[] B = invert(A)
-    console.out.println(Any.toString(A))    
-    console.out.println(Any.toString(B))

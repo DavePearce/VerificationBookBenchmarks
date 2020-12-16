@@ -1,5 +1,3 @@
-import whiley.lang.*
-
 // Determine the maximum of an array using the elimination algorithm,
 // originally attributed to Kaldewaij.
 function max(int[] A) -> (int r)
@@ -23,6 +21,3 @@ ensures all { i in 0..|A| | A[i] <= A[r] }:
         u = u - 1
   //
   return l
-
-method main(System.Console console):
-    console.out.println(max([1,2,4,3,5]))
