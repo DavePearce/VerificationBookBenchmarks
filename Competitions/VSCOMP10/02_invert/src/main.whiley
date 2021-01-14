@@ -28,18 +28,18 @@ ensures
         //where all { k in 0..i | C[A[k]] == k }
         // and a stronger form of the inversion
         where all { j in 0..|C| | 
-			(C[j] == -1 && !present(A, i, j)) ||
-			(0 <= C[j] && C[j] < |A| && A[C[j]]==j) }:
+            (C[j] == -1 && !present(A, i, j)) ||
+            (0 <= C[j] && C[j] < |A| && A[C[j]]==j) }:
         C[A[i]] = i
         i = i + 1
     //
-	// we assume this property of injective functions, since this is well-known mathematical result, but requires induction to prove.
+    // we assume this property of injective functions, since this is well-known mathematical result, but requires induction to prove.
     assume all { j in 0..|A| | present(A, |A|, j) }
-	
-	// Now prove that C is complete (no holes).
+    
+    // Now prove that C is complete (no holes).
     assert all { j in 0..|C| | C[j] != -1 }
-	
-	// Other ideas / invariants that we tried (but subsumed by above inv):
+    
+    // Other ideas / invariants that we tried (but subsumed by above inv):
     //assert all { j in 0..|C| | C[j] != -1 ==> A[C[j]]==j }
     //assert all { k in 0..|A| | some { j in 0..|A| | (C[j]==k) == (A[k] == j) } }
     //assert all { k in 0..|A|, j in 0..|A| | A[k] != A[j]  ==> C[A[k]] != C[A[j]] }
