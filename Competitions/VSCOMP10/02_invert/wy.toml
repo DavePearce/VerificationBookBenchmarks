@@ -4,7 +4,7 @@ authors=["David J. Pearce"]
 version="0.1.0"
 
 [build]
-platforms=["whiley","boogie2"]
+platforms=["whiley","boogie"]
 
 [build.whiley]
 verify=false
