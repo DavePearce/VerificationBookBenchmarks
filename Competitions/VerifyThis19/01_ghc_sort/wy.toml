@@ -1,0 +1,14 @@
+[package]
+name="main"
+authors=["David J. Pearce"]
+version="0.1.0"
+
+[build]
+platforms=["whiley","boogie"]
+
+[build.whiley]
+verify=false
+
+[build.boogie]
+verify=false
+timeout=30 
